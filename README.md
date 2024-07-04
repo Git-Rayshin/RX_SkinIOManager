@@ -8,6 +8,13 @@ You can run this tool in any Maya environment with numpy installed.
 
 - numpy
 
+## Usage
+    
+```python
+import skin_io_manager.ui as skinIO
+skinIO.show(dock=False)
+```
+
 ## Author
 
 Ruixin He
