@@ -319,30 +319,30 @@ class SkinClusterIO(object):
                 np.save(fh, data, allow_pickle=True)
 
         # region --- debug codes region ---
-        _data = [legend,
-                 self.weightsNonZero_Array.tolist(),
-                 list(self.vertSplit_Array.tolist()),
-                 list(self.infMap_Array.tolist()),
+        # _data = [legend,
+        #          self.weightsNonZero_Array.tolist(),
+        #          list(self.vertSplit_Array.tolist()),
+        #          list(self.infMap_Array.tolist()),
 
-                 list(self.inf_Array.tolist()),
-                 self.geometry,
-                 list(self.blendWeights.tolist()),
-                 int(self.vtxCount),
+        #          list(self.inf_Array.tolist()),
+        #          self.geometry,
+        #          list(self.blendWeights.tolist()),
+        #          int(self.vtxCount),
 
-                 self.name,
-                 self.envelope,
-                 int(self.skinningMethod),
-                 self.useComponents,
+        #          self.name,
+        #          self.envelope,
+        #          int(self.skinningMethod),
+        #          self.useComponents,
 
-                 int(self.normalizeWeights),
-                 self.deformUserNormals,
+        #          int(self.normalizeWeights),
+        #          self.deformUserNormals,
 
-                 self.type,
-                 ]
-        print("---------------")
-        filepath = file_path.replace(".npySkin", ".json")
-        with open(filepath, 'w') as fh:
-            json.dump(_data, fh, indent=4, sort_keys=True)
+        #          self.type,
+        #          ]
+        # print("---------------")
+        # filepath = file_path.replace(".npySkin", ".json")
+        # with open(filepath, 'w') as fh:
+        #     json.dump(_data, fh, indent=4, sort_keys=True)
         # endregion --- debug codes region ---
 
     def load(self, file_path=None, createMissingJoints=True):
