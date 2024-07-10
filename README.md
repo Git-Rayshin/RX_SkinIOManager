@@ -32,9 +32,9 @@ You should be able to run this tool in any Maya environment with numpy installed
 
 ## Installation
 
-Place the skin_io_manager directory in one of Maya's Python script directories.
+Place the `skin_io_manager` directory in one of Maya's Python script directories.
 
-Alternatively, add the directory of your choice to the PYTHONPATH environment variable, then place the skin_io_manager
+Alternatively, add the directory of your choice to the PYTHONPATH environment variable, then place the `skin_io_manager`
 directory in that directory.
 
 ## Usage
