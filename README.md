@@ -1,14 +1,10 @@
 # RX Skin IO Manager
 
-This is a skin weight management tool for Autodesk Maya.
+RX Skin IO Manager is a skin weight management tool for Autodesk Maya.
 
-This public version excludes parts related to pymel, mGear, and all pipeline-related components.
+This public version excludes components related to pymel, mGear, and all pipeline-related elements.
 
-You can run this tool in any Maya environment with numpy installed.
-<div style="text-align: center;">
-    <img src="https://github.com/Git-Rayshin/RX_SkinIOManager/assets/115437984/4346936c-add7-4e14-b99a-cce8710b025b" alt="UIimage" height="500">
-</div>
-
+You should be able to run this tool in any Maya environment with numpy installed.
 
 ![maya2020](https://img.shields.io/badge/Maya_2020-tested-brightgreen.svg)
 ![maya2022](https://img.shields.io/badge/Maya_2022-tested-brightgreen.svg)
@@ -19,16 +15,27 @@ You can run this tool in any Maya environment with numpy installed.
 
 ![Windows](https://img.shields.io/badge/Windows-tested-blue)
 
+<div style="text-align: center;">
+    <img src="https://github.com/Git-Rayshin/RX_SkinIOManager/assets/115437984/4346936c-add7-4e14-b99a-cce8710b025b" alt="UIimage" height="500">
+</div>
+
+
+
 -------------------
+
+## Manage your skin files in a more organized way!
+
+- Simple version control(more stuff in full version)
+- Allow you to save/load/track your skin/skinPack files
+- Fast skin IO with numpy
+- Easy to use UI
 
 ## Installation
 
-Place `skin_io_manager` directory in one of Maya's python script directories.
+Place the skin_io_manager directory in one of Maya's Python script directories.
 
-Or
-
-Add the directory of you choice to the `PYTHONPATH` environment variable then put the `skin_io_manager` directory in
-that directory.
+Alternatively, add the directory of your choice to the PYTHONPATH environment variable, then place the skin_io_manager
+directory in that directory.
 
 ## Usage
 
@@ -53,11 +60,3 @@ Initial release of RX Skin IO Manager
 ## License
 
 MIT License
-
-
-
-
-   
-
-
-
